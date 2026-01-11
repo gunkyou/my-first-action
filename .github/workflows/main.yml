@@ -1,0 +1,10 @@
+name: Hello GitHub Actions    # ワークフローの名前
+
+on: [push]                   # コードがプッシュされたら実行
+
+jobs:
+  say-hello:                 # ジョブの名前
+    runs-on: ubuntu-latest   # Linux環境を使用
+    steps:
+      - name: Greet
+        run: echo "GitHub Actionsの実行に成功しました！"
