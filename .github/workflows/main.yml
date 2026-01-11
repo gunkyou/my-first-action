@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest   # Linux環境を使用
     steps:
       - name: Greet
-        run: echo "GitHub Actionsの実行に成功しました！"
+        runn: echo "GitHub Actionsの実行に成功しました！"
